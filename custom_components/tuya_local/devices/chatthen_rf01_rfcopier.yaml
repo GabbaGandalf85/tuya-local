@@ -1,0 +1,234 @@
+name: RF copier
+products:
+  - id: nwniydsz2q01qahc
+    manufacturer: Chatthen
+    model: RF01
+entities:
+  - entity: button
+    name: Transmit 1
+    icon: "mdi:remote"
+    dps:
+      - id: 109
+        type: string
+        name: button
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: button
+    name: Transmit 2
+    icon: "mdi:remote"
+    dps:
+      - id: 110
+        type: string
+        name: button
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: button
+    name: Transmit 3
+    icon: "mdi:remote"
+    dps:
+      - id: 111
+        type: string
+        name: button
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: button
+    name: Transmit 4
+    icon: "mdi:remote"
+    dps:
+      - id: 112
+        type: string
+        name: button
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: button
+    name: Transmit 5
+    icon: "mdi:remote"
+    dps:
+      - id: 113
+        type: string
+        name: button
+        optional: true
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: button
+    name: Transmit 6
+    icon: "mdi:remote"
+    dps:
+      - id: 114
+        type: string
+        name: button
+        optional: true
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: button
+    name: Transmit 7
+    icon: "mdi:remote"
+    dps:
+      - id: 115
+        type: string
+        name: button
+        optional: true
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: button
+    name: Transmit 8
+    icon: "mdi:remote"
+    dps:
+      - id: 116
+        type: string
+        name: button
+        optional: true
+        mapping:
+          - dps_val: "00"
+            value: true
+  - entity: select
+    name: Slot 1
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 101
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: select
+    name: Slot 2
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 102
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: select
+    name: Slot 3
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 103
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: select
+    name: Slot 4
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 104
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: select
+    name: Slot 5
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 105
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: select
+    name: Slot 6
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 106
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: select
+    name: Slot 7
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 107
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: select
+    name: Slot 8
+    icon: "mdi:remote-tv"
+    category: config
+    dps:
+      - id: 108
+        type: string
+        name: option
+        mapping:
+          - dps_val: "00"
+            value: Learn
+          - dps_val: "01"
+            value: Saved
+          - dps_val: "02"
+            value: Empty
+  - entity: switch
+    name: Learning mode
+    icon: "mdi:school"
+    category: config
+    dps:
+      - id: 117
+        type: boolean
+        name: switch
+  - entity: switch
+    name: Long packet
+    icon: "mdi:waveform"
+    category: config
+    dps:
+      - id: 118
+        type: boolean
+        name: switch
+  - entity: sensor
+    class: illuminance
+    dps:
+      - id: 119
+        type: integer
+        name: sensor
+        unit: lx
+        class: measurement
